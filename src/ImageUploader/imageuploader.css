@@ -1,0 +1,35 @@
+
+.imgtop{
+   
+    width: 80vw;
+    margin:0px auto;
+    padding-top: 20px;
+}
+.imgtop input{
+  height: 30px;
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.imgtop button{
+    color: brown;
+    background-color: beige;
+    border: none;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.imgcontainer{
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    
+    justify-content: space-around;
+}
+.images h3{
+    text-transform: capitalize;
+    font-size: medium;
+    
+}
